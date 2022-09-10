@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "build",
+    "module": "commonjs",
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "./src",
+    "skipLibCheck": true
+  },
+
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    },
+    "files": true,
+    "esm": true
+  },
+
+  "include": ["src/**/*", "types/*.d.ts"],
+  "exclude": ["node_modules"]
+}
